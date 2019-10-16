@@ -1,0 +1,401 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+::selection
+	background-color: $accent
+	color: #fff
+.button
+	display: inline-block
+	text-decoration: none
+	text-transform: uppercase
+	color: #fff
+	border: 1px solid $accent3
+	padding: 5px 10px
+	border-radius: 100px
+	background-color: $accent3
+	transition: all 0.5s ease
+	font-size: 15px
+	&:hover
+		color: #fff
+		text-decoration: underline
+		background-color: darken($accent3, 10%)
+
+	
+
+.header
+	background-color: $grey2
+	&-top
+		background-color: $accent5
+		
+		height: 50px
+		padding-top: 7px
+		//color: #000
+		svg
+			width: 30px
+			fill: #fff
+			transition: all 0.5s ease
+		&-phone, &-email
+			a
+				display: flex
+				align-items: center
+				text-decoration: none
+				span
+					margin-left: 10px
+					color: #fff
+					transition: all 0.5s ease
+				&:hover
+					svg
+						fill: $dark
+					span
+						text-decoration: underline
+		.button
+			margin-bottom: 5px
+
+		&-social
+			display: flex
+			justify-content: right
+			svg
+				margin-right: 20px
+				transition: all 0.5s ease
+			a
+				&:hover
+					svg
+						fill: $dark
+
+	&-menu
+		&-logo
+			a
+				text-decoration: none
+				img
+					width: 90px
+					margin-top: 10px
+		nav
+			margin-top: 30px
+			.active
+				border-bottom: 2px solid $accent3
+			ul
+				display: flex
+				justify-content: space-between
+				list-style: none
+				padding: 0
+				margin: 0
+				li
+					padding: 0
+					margin: 0
+					transition: all 0.2s ease
+					&:hover
+						border-bottom: 2px solid $accent3
+					a
+						display: block
+						text-transform: uppercase
+						font-size: 15px
+						color: $dark
+						&:hover
+							text-decoration: none
+	&-content
+		position: relative
+		&-text
+			position: relative
+			h1
+				margin-top: 130px
+				text-transform: uppercase
+				line-height: 70px
+				font-size: 45px
+				color: $dark
+				font-weight: normal
+				margin-bottom: 30px
+				span
+					font-size: 70px
+					font-weight: bold
+					
+			div
+			
+				display: flex
+				align-items: center
+				svg
+					width: 50px
+					margin-right: 10px
+					fill: $accent3
+					animation-duration: 1s
+					animation-delay: 300ms
+					animation-iteration-count: infinite
+					animation-name: pulse
+				p
+					font-weight: 300
+					padding: 0
+					margin: 0
+					font-size: 25px
+					color: $dark
+					margin-bottom: 20px
+		.button
+			margin: 30px 0px
+			font-size: 16px
+			border-radius: 3px
+			padding: 20px 10px 
+			font-weight: bold
+			z-index: 2
+		&-img
+			position: relative
+			img
+				width: 1000px
+.darken
+	background-color: #36424F
+	color: #F2FBFC
+.lighten
+	background-color: #F9F9F9
+.grey
+	background-color: #EFEFF0
+.light-grey
+	background-color: #f1f1f1
+.accent
+	color: $accent3
+	font-weight: bold
+.experience
+	font-size: 14px
+	background-color: $accent5
+	color: #fff
+	padding: 20px 0px
+	p
+		padding: 0
+		margin: 0
+	&-accent
+		text-transform: uppercase
+		font-weight: bold
+		span
+			color: $dark
+			font-size: 30px
+.individual
+	padding: 20px 0px
+	background-color: $grey
+
+	
+	&-button
+		text-align: center
+		.button
+			font-size: 25px
+			font-weight: bold
+			padding: 20px 30px
+			border-radius: 5px
+.why-we
+	padding: 30px 0px
+	h2
+		.accent
+			text-transform: uppercase
+			font-weight: 300
+			font-size: 45px
+	&-content
+		margin-top: 20px
+		transition: all 0.3s ease 
+		padding: 7px
+		&:hover
+			//outline: 3px dotted $accent3
+			svg
+				fill: $accent3
+			h3
+				color: $accent3
+				&::after
+					background-color: $accent3
+					width: 100px
+		svg
+			width: 60px
+			fill: $dark
+			margin: 30px auto
+			transition: all 0.3s ease 
+		h3
+			text-transform: uppercase
+			color: $dark
+			transition: all 0.3s ease 
+			position: relative
+			margin-bottom: 30px
+			&::after
+				transition: all 0.3s ease 
+				position: absolute
+				top: 40px
+				left: 0
+				right: 0
+				margin: auto
+				width: 60px
+				height: 3px
+				content: ""
+				background-color: $dark
+		&-text
+			text-align: justify
+			p
+				padding: 0
+				margin: 0
+				line-height: 20px
+
+
+
+
+.after-line
+	position: absolute
+	top: 50px
+	left: 0
+	right: 0
+	margin: auto
+	width: 60px
+	height: 3px
+	content: ""
+.h2-after
+	position: relative
+	font-weight: 300
+	text-align: center
+	font-size: 40px
+	margin-bottom: 50px
+	color: $dark
+	&::after
+		background: rgba(0, 0, 0, 0) url("../img/section-line.png") no-repeat scroll 0 0
+		content: ""
+		height: 100px
+		left: 0
+		margin: auto
+		position: absolute
+		right: 0
+		top: 75px
+		width: 91px		
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse
+  from
+    -webkit-transform: scale3d(1, 1, 1)
+    transform: scale3d(1, 1, 1)
+
+  50%
+    -webkit-transform: scale3d(1.05, 1.05, 1.05)
+    transform: scale3d(1.05, 1.05, 1.05)
+
+  to
+    -webkit-transform: scale3d(1, 1, 1)
+    transform: scale3d(1, 1, 1)
+
+@keyframes pulse
+  from
+    -webkit-transform: scale3d(1, 1, 1)
+    transform: scale3d(1, 1, 1)
+
+  50%
+    -webkit-transform: scale3d(1.05, 1.05, 1.05)
+    transform: scale3d(1.05, 1.05, 1.05)
+
+  to
+    -webkit-transform: scale3d(1, 1, 1)
+    transform: scale3d(1, 1, 1)
+
+.pulse
+  -webkit-animation-name: pulse
+  animation-name: pulse
+
+#snow
+	background: none
+	background-image: url('../img/sn1.png'), url('../img/sn2.png'), url('../img/sn3.png');
+	height: 100%
+	left: 0
+	position: absolute
+	top: 0
+	width: 100%
+	z-index: 1
+	-webkit-animation: snow 10s linear infinite
+	-moz-animation: snow 10s linear infinite
+	-ms-animation: snow 10s linear infinite
+	animation: snow 10s linear infinite
+
+@keyframes snow
+	0% 
+		background-position: 0px 0px, 0px 0px, 0px 0px
+	50% 
+		background-position: 500px 500px, 100px 200px, -100px 150px
+	100%
+		background-position: 500px 1000px, 200px 400px, -100px 300px
+
+@-moz-keyframes snow
+	0%
+		background-position: 0px 0px, 0px 0px, 0px 0px
+	50%
+		background-position: 500px 500px, 100px 200px, -100px 150px
+	100%
+		background-position: 400px 1000px, 200px 400px, 100px 300px
+
+@-webkit-keyframes snow
+	0%
+		background-position: 0px 0px, 0px 0px, 0px 0px
+	50%
+		background-position: 500px 500px, 100px 200px, -100px 150px
+	100%
+		background-position: 500px 1000px, 200px 400px, -100px 300px
+@-ms-keyframes snow
+	0%
+		background-position: 0px 0px, 0px 0px, 0px 0px
+	50%
+		background-position: 500px 500px, 100px 200px, -100px 150px
+	100%
+		background-position: 500px 1000px, 200px 400px, -100px 300px
+
+#snow
+	background: none
+	background-image: none
+	background-image: url('../img/sn1.png'), url('../img/sn2.png'), url('../img/sn3.png')
+	height: 100%
+	left: 0
+	position: absolute
+	top: 0
+	width: 100%
+	z-index: 1
+	-webkit-animation: snow 10s linear infinite
+	-moz-animation: snow 10s linear infinite
+	-ms-animation: snow 10s linear infinite
+	animation: snow 10s linear infinite
+
+@import "media" // Всегда в конце
