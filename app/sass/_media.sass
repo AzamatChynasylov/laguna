@@ -15,17 +15,37 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	/**/
-
+	.header
+		&-top
+			&-phone, &-email
+				a
+					font-size: 14px
+					span
+						margin-left: 5px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	/**/
-
+	.header
+		background-color: $grey2
+		&-top
+			.button
+				font-size: 13px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	/**/
-
+	// .col-xs-5
+	// 	width: 100% !important
+	.header
+		&-top
+			height: 80px
+			text-align: center
+			&-phone
+				position: relative
+				
+			.col-xs-5
+				width: 100%
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)

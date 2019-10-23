@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Брачное агентство Бишкека "Лагуна"</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body class="man">
+
+	<div class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="header-top-phone">
+							<a href="tel:996558123193"><img src="/img/whatsapp.svg" alt="Ватсап брачного агентство Лагуна"
+									class="img-responsive img-svg"><span>+996 (558) 123193</span></a>
+						</div>
+						<!-- /.header-phone -->
+					</div>
+					<!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<div class="header-top-email">
+							<a href="mailto:lagunabehappy@gmail.com"><img src="/img/envelope.svg"
+									alt="Эмейл брачного агентство Лагуна"
+									class="img-responsive img-svg"><span>lagunabehappy@gmail.com</span></a>
+						</div>
+					</div>
+					<!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<div class="header-top-social">
+							<div class="s1">
+								<a href="https://www.facebook.com/lagunabehappy/" target="_blank"><img src="/img/facebook-logo.svg"
+										alt="ALT" class="img-responsive img-svg"></a>
+							</div>
+							<div class="s2">
+								<a href="https://www.instagram.com/lagunabehappy/" target="_blank"><img src="/img/instagram.svg"
+										alt="ALT" class="img-responsive img-svg"></a>
+							</div>
+							<div class="">
+								<a href="#" class="button">Найти партнера</a>
+							</div>
+
+						</div>
+					</div>
+					<!-- /.col-md-4 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.header-top -->
+		<div class="header-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="header-menu-logo">
+							<a href="/">
+								<img src="/img/laguna_logo.png" alt="Logo" class="img-responsive">
+							</a>
+						</div>
+					</div>
+					<!-- /.col-md-6 -->
+					<div class="col-md-9">
+						<nav>
+							<ul>
+								<li class="active"><a href="/">Главная</a></li>
+								<li><a href="#">Наши Пары</a></li>
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Для женщин</a></li>
+								<li><a href="/for-mens.html">Для мужчин</a></li>
+								<li><a href="/contacts.html">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- /.col-md-6 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<div class="for-men">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1>Найдем пару в которую ты влюбишься <span class="accent"><br>на всю жизнь</span></h1>
+						<p class="var">прошедшей проверку на совместимость по 32 параметрам.</p>
+						<a href="#" class="button">начать поиск</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.header -->
+	<div class="man-hear">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="man-hear-img">
+						<img src="/img/wedding-1255520_1920.png" alt="Alt" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="man-hear-text">
+						<h2>ОБРАЩЕНИЕ К МУЖЧИНАМ</h2>
+						<p>Мужчины обычно обращаются к нам по двум причинам:
+							– либо вы упорный трудяга, который посвящает своему делу (бизнесу или наёмной работе) всё своё время и,
+							возвращаясь домой, хочет чувствовать уют и заботу. При этом времени на разные гуляния в поисках отношений
+							у
+							вас нет;</p>
+						<p>– либо вы, «обжегшись на молоке» (столкнувшись с непостоянством женского характера, меркантильностью и
+							капризностью слабого пола), боитесь даже смотреть, не то что «дуть на воду».
+							Но всем вам хочется видеть в жене не только объект вожделения, но и хранительницу очага, мать ваших детей
+							и
+							надежного друга по жизни. Наше агентство поможет вам обрести долгожданное счастье – для этого нужно просто
+							заказать обратный звонок и хоть сегодня приступить к поиску своей «второй половинки».</p>
+						<a href="#" class="button">заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<<<<<<< HEAD
+	<div class="for-mens">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1>Для мужчин</h1>
+				</div>
+		</div>
+	</div>
+
+
+=======
+	<div class="man-we-know">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="man-we-know-text">
+						<p>МЫ ЗНАЕМ, КАК ТЕБЕ ПОМОЧЬ</p>
+						<h3><span class="accent">LAGUNA</span> – ЭТО ДРУГОЙ ПОДХОД В ОБЛАСТИ ЗНАКОМСТВ</h3>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="man-we-know-item">
+						<h4><span class="step">1</span>Защищаем от мошенников,
+							неадекватных и ботов</h4>
+						<p>По паспортным данным проверяем по базе МВД лиц находящихся в розыске и причастных к экстремизму, в базе
+						</p>
+					</div>
+					<!-- /.man-we-know-item -->
+				</div>
+				<!-- /.col-md-4 -->
+				<div class="col-md-4">
+					<div class="man-we-know-item">
+						<h4><span class="step">2</span>В базе нет женатых и
+							замужних пользователей</h4>
+						<p>Проверяем семейный статус всех пользователей по 14 странице паспорта
+						</p>
+					</div>
+					<!-- /.man-we-know-item -->
+				</div>
+				<!-- /.col-md-4 -->
+				<div class="col-md-4">
+					<div class="man-we-know-item">
+						<h4><span class="step">3</span>Экономим время</h4>
+						<p>Избавим от просмотра тысячи анкет, от долгих переписок и пустых свиданий.
+						</p>
+					</div>
+					<!-- /.man-we-know-item -->
+				</div>
+				<!-- /.col-md-4 -->
+			</div>
+			<!-- /.row -->
+		</div>
+	</div>
+	<!-- /.man-we-know -->
+
+	<div class="waiting">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="waiting-text">
+						<h4>ХВАТИТ ЖДАТЬ И НАДЕЯТЬСЯ НА ЧУДО
+							РЕШАЙТЕСЬ И ДЕЙСТВУЙТЕ! </h4>
+						<p>Найти вторую половинку — проще, чем кажется, нужно лишь научиться искать.</p>
+						<p>А если вы уже в отношениях, но забыли, что такое гармония любви, то приходите к нам!</p>
+						<p>Мы поможем вам вернуть или найти любовь.</p>
+						<p>ПОПРОБУЙТЕ ИЗМЕНИТЬ ЖИЗНЬ ПРЯМО СЕЙЧАС!</p>
+						<a href="#" class="button">Записаться на бесплатную консультацию</a>
+					</div>
+
+				</div>
+				<!-- /.col-12 -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.waiting -->
+>>>>>>> 06c9b87cbe8244a03d83a5d079b74352518d4ab9
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-phone">
+							<img src="/img/whatsapp.svg" alt="ALT" class="img-responsive img-svg">
+							<a href="+996588123193">+99630558123193</a>
+						</div>
+						<!-- /.footer-phone -->
+					</div>
+					<!-- /.col-md-3 -->
+					<div class="col-md-4">
+						<div class="footer-logo">
+							<img src="/img/laguna_logo.png" alt="ALT" class="img-responsive">
+						</div>
+					</div>
+					<!-- /.col-md-6 -->
+					<div class="col-md-4">
+						<div class="footer-email">
+							<img src="/img/envelope.svg" alt="ALT" class="img-responsive img-svg">
+							<a href="mailto:lagunabehappy@gmail.com">lagunabehappy@gmail.com</a>
+						</div>
+						<!-- /.footer-email -->
+					</div>
+					<!-- /.col-md-3 -->
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<h3>Только для серьезных знакомств с ниятом никяха</h3>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<div class="sroll-up">
+		<a href="#top">
+			<img src="/img/up-arrow.svg" alt="Alt" class="img-responsive img-svg">
+		</a>
+	</div>
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
