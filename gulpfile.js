@@ -41,6 +41,7 @@ gulp.task('js', ['common-js'], function () {
 			'app/libs/jquery/dist/jquery.min.js',
 			'app/libs/slick/slick/slick.min.js',
 			'app/libs/equalHeights/equalHeights.min.js',
+			'app/libs/mmenu/dist/mmenu.js',
 			'app/js/common.min.js', // Всегда в конце
 		])
 		.pipe(concat('scripts.min.js'))
