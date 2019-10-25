@@ -42,7 +42,11 @@ gulp.task('js', ['common-js'], function () {
 			'app/libs/slick/slick/slick.min.js',
 			'app/libs/equalHeights/equalHeights.min.js',
 			'app/libs/mmenu/dist/mmenu.js',
-			'app/js/common.min.js', // Всегда в конце
+			
+			'app/libs/Magnific-Popup/dist/jquery.magnific-popup.min.js',
+			'app/libs/waypoints/waypoints.min.js',
+			'app/libs/animate/animate-css.js',
+			'app/js/common.min.js', // Всегда в концеapp
 		])
 		.pipe(concat('scripts.min.js'))
 		// .pipe(uglify()) // Минимизировать весь js (на выбор)

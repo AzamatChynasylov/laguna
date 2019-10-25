@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function ($) {
 
 	//Replace all SVG images with inline SVG
 	$('img.img-svg').each(function () {
@@ -36,7 +36,15 @@ $(function () {
 		}, "slow");
 		return false;
 	});
-
+	$("a[href='#our-family']").click(function () {
+		$("html, body").animate({scrollTop: $('#our-family').offset().top }, 2000);
+		return false;
+	});
+	$("a[href='#why-we']").click(function () {
+		$("html, body").animate({scrollTop: $('#why-we').offset().top }, 2000);
+		return false;
+	});
+	
 	$(window).scroll(function () {
 
 		var height = $(document).scrollTop();
@@ -64,6 +72,34 @@ $(function () {
 		autoplay: true,
 		autoplaySpeed: 2000,
 		infinite: true,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+				
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		]
 
 	});
 
@@ -91,5 +127,43 @@ $(function () {
 		$(".main-mnu").slideToggle();
 		return false;
 	});
+
+	$('nav li a[href="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+
+
+	$('.open-popup-link').magnificPopup({
+		type:'inline',
+		midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+	});
+
+	$('a[href="#callback"]').click(function() {
+		$("#callback .formname").val($(this).data("form"));
+	});
+
+	$(".callback").submit(function() { //Change
+	
+		var th = $(this);
+	//	console.log(th.serialize());
+		$.ajax({
+			type: "POST",
+			url: "/main/sendEmail", //Change
+			data: th.serialize(),
+			
+		}).done(function() {
+		
+			$(".success1").addClass("visible");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+				$(".success1").removeClass("visible");
+				$.magnificPopup.close();
+			}, 3000);
+		});
+		return false;
+	});
+	
+	$(".individual h2, .banner-text h2").animated("fadeInDown");
+	$(".individual-button a").animated("fadeInRight");
+
 
 });
